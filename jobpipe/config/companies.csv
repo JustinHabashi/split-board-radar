@@ -1,0 +1,41 @@
+name,candidate,sector,careers_url,ats,board_token,active
+JPMorgan Chase,engineer,fintech,https://careers.jpmorgan.com,fallback,,true
+Goldman Sachs,engineer,fintech,https://www.goldmansachs.com/careers,fallback,,true
+Stripe,engineer,fintech,https://stripe.com/jobs,greenhouse,stripe,true
+Plaid,engineer,fintech,https://plaid.com/careers,ashby,plaid,true
+Brex,engineer,fintech,https://www.brex.com/careers,greenhouse,brex,true
+Affirm,engineer,fintech,https://www.affirm.com/careers,greenhouse,affirm,true
+Robinhood,engineer,fintech,https://careers.robinhood.com,greenhouse,robinhood,true
+Chime,engineer,fintech,https://www.chime.com/about/careers,greenhouse,chime,true
+Coinbase,engineer,fintech,https://www.coinbase.com/careers,greenhouse,coinbase,true
+Block,engineer,fintech,https://careers.block.xyz,greenhouse,block,true
+Microsoft,both,enterprise_software,https://careers.microsoft.com,fallback,,true
+Amazon,both,enterprise_software,https://www.amazon.jobs,fallback,,true
+Google,both,enterprise_software,https://careers.google.com,fallback,,true
+Meta,engineer,enterprise_software,https://www.metacareers.com,fallback,,true
+Salesforce,engineer,enterprise_software,https://salesforce.wd12.myworkdayjobs.com,workday,salesforce/External_Career_Site,true
+ServiceNow,engineer,enterprise_software,https://careers.servicenow.com,fallback,,true
+Palantir,engineer,enterprise_software,https://www.palantir.com/careers,lever,palantir,true
+Databricks,engineer,enterprise_software,https://www.databricks.com/company/careers,greenhouse,databricks,true
+Snowflake,engineer,enterprise_software,https://careers.snowflake.com,greenhouse,snowflakecomputing,true
+HashiCorp,engineer,enterprise_software,https://www.hashicorp.com/jobs,greenhouse,hashicorp,true
+Genentech,scientist,biotech,https://www.gene.com/careers,workday,roche/ROG-A2O-GENE,true
+Bristol Myers Squibb,scientist,biotech,https://careers.bms.com,workday,bristolmyerssquibb/BMS,true
+Regeneron,scientist,biotech,https://careers.regeneron.com,workday,regeneron/Careers,true
+Moderna,scientist,biotech,https://careers.modernatx.com,workday,modernatx/M_tx,true
+Seagen,scientist,biotech,https://careers.seagen.com,workday,seagen/careers,false
+Juno Therapeutics,scientist,biotech,https://careers.junotherapeutics.com,greenhouse,,false
+Nkarta,scientist,biotech,https://www.nkartatx.com/careers,greenhouse,nkartatherapeutics,true
+Lyell Immunopharma,scientist,biotech,https://lyell.com/careers,greenhouse,lyellimmunopharma,true
+Gilead Sciences,scientist,biotech,https://careers.gilead.com,workday,gilead/gileadcareers,true
+Fate Therapeutics,scientist,biotech,https://fatetherapeutics.com/careers,lever,fatetherapeutics,true
+Adaptive Biotechnologies,scientist,biotech,https://www.adaptivebiotech.com/career-listings,greenhouse,adaptivebiotechnologies,true
+Sana Biotechnology,scientist,biotech,https://sana.com/join-us,greenhouse,sanabiotech,true
+Umoja Biopharma,scientist,biotech,https://www.umoja-biopharma.com/careers,greenhouse,umojabiopharma,true
+Outpace Bio,scientist,biotech,https://www.outpacebio.com/connect,lever,outpacebio,true
+Shape Therapeutics,scientist,biotech,https://shapetx.com/careers,greenhouse,shapetherapeutics,true
+Tune Therapeutics,scientist,biotech,https://tunetx.com/careers,greenhouse,tunetherapeutics,true
+Vir Biotechnology,scientist,biotech,https://www.vir.bio/careers,greenhouse,virbiotechnologyinc,true
+Cajal Neuroscience,scientist,biotech,https://www.cajalneuro.com/careers,greenhouse,cajalneuro,true
+Just-Evotec Biologics,scientist,biotech,https://careers.evotec.com/en/seattle,workday,evotecgroup/Just_Bio_Career_Site,true
+Nautilus Biotechnology,scientist,biotech,https://www.nautilus.bio/careers,ashby,Nautilus Biotechnology,true

@@ -1,0 +1,56 @@
+relevance_threshold: 70
+
+schedule:
+  cron: "0 7 * * *"  # 7 AM daily
+
+email:
+  recipients:
+    engineer: "engineer@example.com"
+    scientist: "scientist@example.com"
+  from_address: "jobpipe@example.com"
+  subject_prefix: "[JobPipe]"
+
+rate_limits:
+  requests_per_second: 2
+  backoff_base_seconds: 1
+  backoff_max_seconds: 60
+  backoff_multiplier: 2
+
+http:
+  timeout_seconds: 30
+  user_agent: "JobPipe/1.0 (personal job-search automation; contact: jobpipe@example.com)"
+
+filtering:
+  location_aliases:
+    - Seattle
+    - Bellevue
+    - Redmond
+    - Kirkland
+    - Bothell
+    - South San Francisco
+    - San Francisco
+    - San Jose
+    - Oakland
+    - Berkeley
+    - Emeryville
+    - Palo Alto
+    - Menlo Park
+    - Mountain View
+    - Sunnyvale
+    - Santa Clara
+    - Foster City
+    - San Mateo
+    - Burlingame
+    - Brisbane
+    - San Carlos
+    - Redwood City
+  remote_patterns:
+    - remote
+    - work from home
+    - wfh
+    - anywhere in the us
+
+tailoring:
+  model: "claude-sonnet-4-6"
+  max_tokens: 4096
+  temperature: 0.3

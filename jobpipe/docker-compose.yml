@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  jobpipe:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+    restart: unless-stopped
+    command: python -m jobpipe.scheduler

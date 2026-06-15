@@ -1,0 +1,48 @@
+# Copy this file to engineer.yaml and fill in your details.
+# engineer.yaml is gitignored — never commit real profile data.
+
+name: Your Name
+
+target_levels:
+  - Senior Software Engineer
+  - Software Engineer III
+  - Software Engineer
+  - Backend Engineer
+
+locations:
+  - Seattle, WA
+  - remote
+
+must_have_keywords:
+  - python
+  - backend
+  - api
+  - microservices
+  - sql
+
+nice_to_have_keywords:
+  - cloud
+  - aws
+  - ci/cd
+  - kafka
+  - ai
+  - machine learning
+
+exclude_keywords:
+  - ios
+  - android
+  - mobile
+  - game
+
+master_cv_path: data/master_cv/engineer_cv.md
+cover_letter_template_path: data/templates/engineer_cover_letter.md.j2
+
+summary: >
+  Brief professional summary used as context for the LLM relevance scorer.
+  Include your level, domain expertise, tech stack, and job-search focus.
+  The more specific this is, the better the scoring quality.
+
+formatting_preferences:
+  - concise bullet points starting with strong past-tense action verbs
+  - quantify impact with numbers wherever possible
+  - no contractions in cover letters

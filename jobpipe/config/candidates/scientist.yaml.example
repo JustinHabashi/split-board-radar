@@ -1,0 +1,55 @@
+# Copy this file to scientist.yaml and fill in your details.
+# scientist.yaml is gitignored — never commit real profile data.
+
+name: Your Name
+
+target_levels:
+  - Research Scientist
+  - Scientist I
+  - Scientist II
+  - Senior Scientist
+  - Associate Scientist II
+  - Associate Scientist III
+
+locations:
+  - Seattle, WA
+  - remote
+
+must_have_keywords:
+  - scientist
+  - research
+  - cell culture
+  - cell biology
+  - biotech
+
+nice_to_have_keywords:
+  - stem cell
+  - flow cytometry
+  - qPCR
+  - ELISA
+  - Western blot
+  - assay development
+  - GLP
+  - in vitro
+  - in vivo
+
+exclude_keywords:
+  - computational only
+  - bioinformatics only
+  - no wet lab
+  - software engineer
+  - data scientist
+
+master_cv_path: data/master_cv/scientist_cv.md
+cover_letter_template_path: data/templates/scientist_cover_letter.md.j2
+
+summary: >
+  Brief professional summary used as context for the LLM relevance scorer.
+  Include your degree, domain expertise, techniques, and job-search focus.
+  The more specific this is, the better the scoring quality.
+
+formatting_preferences:
+  - formal scientific tone
+  - no contractions in cover letters
+  - bullet points focused on experimental contributions and outcomes
+  - cite techniques and models by standard names
